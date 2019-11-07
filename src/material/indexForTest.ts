@@ -1,0 +1,1 @@
+export { primeCombinations } from './materials'
