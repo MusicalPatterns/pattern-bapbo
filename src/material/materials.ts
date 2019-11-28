@@ -14,7 +14,7 @@ import {
 const primeCombinations: (prime: Integer) => Integer[][] =
     (prime: Integer): Integer[][] => {
         if (!PRIMES.includes(prime)) {
-            throw new Error(`${prime} is not prime.`)
+            throw new Error(`${String(prime)} is not prime.`)
         }
 
         if (prime === TWO) {
