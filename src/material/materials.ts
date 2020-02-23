@@ -27,7 +27,7 @@ const primeCombinations: (prime: Integer) => Integer[][] =
 
         const primeIndex: Ordinal<Integer[]> = findIndex(
             PRIMES,
-            (primeToCheck: Integer) => primeToCheck === prime,
+            (primeToCheck: Integer): boolean => primeToCheck === prime,
         )
 
         const combinations: Integer[][] = computeCombinations(as.Integer(primeIndex), TWO)
