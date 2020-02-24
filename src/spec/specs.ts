@@ -1,10 +1,4 @@
-import {
-    Configurations,
-    Spec,
-    Specs,
-    standardConfigurations,
-    standardInitialSpecs,
-} from '@musical-patterns/spec'
+import { Configurations, Spec, Specs, standardConfigurations, standardInitialSpecs } from '@musical-patterns/spec'
 
 const initialSpecs: Specs = {
     ...standardInitialSpecs,
